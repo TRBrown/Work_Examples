@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{998554ef-65dc-4ffa-b6e2-dc222d95f58b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{d1357c79-aa06-4dad-9af8-cb00e671c474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{77382cfd-e297-418e-a429-7aaccc1ed364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{540c4b4c-9322-4951-b0db-6d5cde24b0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\ModelHeaders">
+      <UniqueIdentifier>{f75bedfd-bb94-4fbf-b395-19d8a745a537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\LayerHeaders">
+      <UniqueIdentifier>{d4407e80-9eb6-4b6e-a090-bb5f931e7ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a9c83190-ed72-4260-9dde-30b832aa4e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModelSource">
+      <UniqueIdentifier>{4f4c8158-b18d-41a2-93ca-bac8814959e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LayerSource">
+      <UniqueIdentifier>{d801dbfd-84b5-45b8-8b80-949ed3ffa96f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Models\chess.fx">
+      <Filter>Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom_Math.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BBishop.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BKing.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BKnight.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\Black.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BPawn.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BQueen.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\BRook.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\Chessboard.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\CustomModel.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\Piece.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WBishop.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\White.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WKing.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WKnight.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WPawn.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WQueen.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\WRook.h">
+      <Filter>Header\ModelHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Stage0.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AIThread.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="R_KnightLayer.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="R_PawnLayer.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactiveLayer.h">
+      <Filter>Header\LayerHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom_Structures.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom_Services.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSource\AABBRender.h">
+      <Filter>Source\ModelSource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom_Math.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BBishop.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BKing.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BKnight.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\Black.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BPawn.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BQueen.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\BRook.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\Chessboard.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\CustomModel.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\Piece.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WBishop.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\White.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WKing.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WKnight.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WPawn.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WQueen.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\WRook.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Stage0.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="AIThread.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="R_KnightLayer.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="R_PawnLayer.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactiveLayer.cpp">
+      <Filter>Source\LayerSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom_Services.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource\AABBRender.cpp">
+      <Filter>Source\ModelSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
